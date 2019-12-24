@@ -8,7 +8,7 @@
 #
 # This file contains all possible entries that can be set. These entries
 # may differ depending the graphical client that is used to display the
-# application. Keep this file as default, do not edit it. If you want to
+# application. Keep this file as default, dvsdfvsdfsdfsdafsdfsdvdgdagfsdgasdgfsadfgdsgfdao not edit it. If you want to
 # customize some settings, copy this file to an other directory and set
 # the FGLPROFILE environment variable. Please refer to the documentation
 # for more details about multiple levels of fglprofile files.
