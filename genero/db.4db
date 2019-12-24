@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Schema id="{a449eef3-c6ef-48e7-ae64-705aeaa0c2ef}" version="4.0">
+  <ExtractionSettings last="Oracle MySQL">
+    <ExtractionOptions casens="LowerCase" cvmeth="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" ignerr="true" systab="false" type="Oracle MySQL"/>
+  </ExtractionSettings>
+  <Table name="emp" isView="false" status="U">
+    <Column fglLength="4" fglType="2" name="id" notNull="false" order="1" status="U"/>
+    <Column fglLength="20" fglType="0" name="name" notNull="false" order="2" status="U"/>
+    <Column fglLength="4" fglType="2" name="age" notNull="false" order="3" status="U"/>
+    <Column fglLength="4" fglType="2" name="phone" notNull="false" order="4" status="U"/>
+  </Table>
+  <Table name="first" isView="false" status="U">
+    <Column fglLength="4" fglType="2" name="id" notNull="false" order="1" status="U"/>
+    <Column fglLength="30" fglType="0" name="name" notNull="false" order="2" status="U"/>
+  </Table>
+  <Table name="store" isView="false" status="U">
+    <Column fglLength="4" fglType="2" name="id" notNull="false" order="1" status="U"/>
+    <Column fglLength="20" fglType="201" name="fname" notNull="false" order="2" status="U"/>
+    <Column fglLength="20" fglType="201" name="lname" notNull="false" order="3" status="U"/>
+    <Column fglLength="4" fglType="2" name="age" notNull="false" order="4" status="U"/>
+  </Table>
+  <Table name="student" isView="false" status="U">
+    <Column fglLength="4" fglType="2" name="id" notNull="false" order="1" status="U"/>
+    <Column fglLength="1" fglType="0" name="name" notNull="false" order="2" status="U"/>
+    <Column fglLength="4" fglType="2" name="age" notNull="false" order="3" status="U"/>
+    <Column fglLength="4" fglType="2" name="phone" notNull="false" order="4" status="U"/>
+    <Column fglLength="4" fglType="7" name="dob" notNull="false" order="5" status="U"/>
+  </Table>
+</Schema>

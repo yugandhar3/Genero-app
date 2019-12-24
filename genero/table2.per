@@ -1,0 +1,37 @@
+TOOLBAR 
+ITEM dispaly
+ITEM insert
+ITEM accept
+ITEM cancel 
+ITEM exit 
+
+LAYOUT 
+GRID 
+{
+<g g1                                              >
+ id :   [id        ]           age:   [age       ]
+ name:  [name      ]           phone: [phone     ]
+<                                                  >
+
+<t t1                                          >
+    id      name       age        phone 
+  [c1       |c2        |c3        |c4    ]
+<                                              >
+}
+END 
+END 
+ATTRIBUTES 
+GROUP g1:TEXT = "search criteria";
+EDIT id =FORMONLY .id;
+EDIT name =formonly.name;
+EDIT age =FORMONLY .age;
+EDIT PHONE = formonly.PHONE;
+
+EDIT c1= formonly.t_id;
+EDIT c2 =formonly.t_name;
+EDIT c3 =FORMONLY .t_age;
+EDIT c4 =formonly.t_phone;
+
+END
+INSTRUCTIONS
+SCREEN RECORD sr(t_id,t_name,t_age,t_phone); 
